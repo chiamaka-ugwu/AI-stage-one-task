@@ -27,7 +27,7 @@ A simple command-line tool that sends a prompt to an AI model via OpenRouter and
 
 ```bash
    OPENROUTER_API_KEY=your_openrouter_api_key_here
-   MODEL_NAME=openai/gpt-4o-mini
+   MODEL_NAME=your_model_name_here
 ```
 
 N.B. Get your API key from [openrouter.ai](https://openrouter.ai).
