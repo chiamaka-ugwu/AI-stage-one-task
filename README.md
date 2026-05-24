@@ -7,7 +7,7 @@ A simple command-line tool that sends a prompt to an AI model via OpenRouter and
 1. Clone the repo and navigate into it:
 
 ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/chiamaka-ugwu/AI-stage-one-task/>
    cd <repo-folder>
 ```
 
