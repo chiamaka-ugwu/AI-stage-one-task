@@ -11,9 +11,9 @@ def generate_text(prompt: str) -> str:
     model_name = os.getenv("MODEL_NAME")
 
     if not api_key:
-      raise EnvironmentError("OPENROUTER_API_KEY environment variable is not set.")
+        raise EnvironmentError("OPENROUTER_API_KEY environment variable is not set.")
     if not model_name:
-      raise EnvironmentError("MODEL_NAME environment variable is not set.")
+        raise EnvironmentError("MODEL_NAME environment variable is not set.")
 
     response = requests.post(
         url="https://openrouter.ai/api/v1/chat/completions",
